@@ -1,7 +1,8 @@
 fileFormatVersion: 2
-guid: 409e62636820cc9479b1f90fea324cb7
+guid: f0260702757504175814484432260898
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: pessoa4
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0

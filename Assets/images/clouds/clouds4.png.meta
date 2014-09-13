@@ -1,7 +1,8 @@
 fileFormatVersion: 2
-guid: 855157fce16cb8547a3e645a8730c0b0
+guid: a5d32d51cdc9747d3ac9222e6d1d9c08
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: clouds4
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
