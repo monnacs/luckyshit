@@ -48,12 +48,6 @@
   <ItemGroup>
      <Compile Include="Assets\MoveLeft.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{116A483B-F95E-624A-764E-B0708591B550}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
-    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
-      <Project>{F6D4350E-E284-B3EE-F531-5D9429DAA15B}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
 	   Other similar extension points exist, see Microsoft.Common.targets.

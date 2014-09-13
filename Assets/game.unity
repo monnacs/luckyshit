@@ -230,9 +230,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 1436431703}
   - 212: {fileID: 1436431702}
-  - 143: {fileID: 1436431706}
   - 114: {fileID: 1436431705}
   - 114: {fileID: 1436431704}
+  - 114: {fileID: 1436431707}
   m_Layer: 0
   m_Name: twitter
   m_TagString: Untagged
@@ -287,6 +287,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoRotate: 0
   maxRotationSpeed: 360
+  motor: {fileID: 0}
 --- !u!114 &1436431705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -305,7 +306,6 @@ MonoBehaviour:
     maxSidewaysSpeed: 10
     maxBackwardsSpeed: 10
     slopeSpeedMultiplier:
-      serializedVersion: 2
       m_Curve:
       - time: -90
         value: 1
@@ -342,20 +342,20 @@ MonoBehaviour:
     slidingSpeed: 15
     sidewaysControl: 1
     speedControl: .400000006
---- !u!143 &1436431706
-CharacterController:
+  lastGroundNormal: {x: 0, y: 0, z: 0}
+  tr: {fileID: 0}
+  controller: {fileID: 0}
+--- !u!114 &1436431707
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1436431701}
-  serializedVersion: 2
-  m_Height: 1.28999996
-  m_Radius: .800000012
-  m_SlopeLimit: 45
-  m_StepOffset: .300000012
-  m_SkinWidth: .0799999982
-  m_MinMoveDistance: 0
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e210b44845de4fed81ab141fa764227, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1472333470
 GameObject:
   m_ObjectHideFlags: 0
@@ -435,6 +435,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1472333470}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5d2c82d8853e4b37801f752f385a3de, type: 3}
+  m_Script: {fileID: 11500000, guid: 126f88e9c8490469fad134c759dcc564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
