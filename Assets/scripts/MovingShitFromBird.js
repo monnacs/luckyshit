@@ -13,6 +13,7 @@ function Update () {
 }
 
 function OnCollisionEnter2D (col:Collision2D) {
+	if (col.gameObject.tag == "bird") return true;
 	if (col.gameObject.tag != "floor") {
 		Scoreboard.playerScore++;
 	}
