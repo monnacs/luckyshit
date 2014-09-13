@@ -51,6 +51,7 @@
      <Compile Include="Assets\scripts\MoveLeft.js" />
      <Compile Include="Assets\scripts\MovingShitFromBird.js" />
      <Compile Include="Assets\scripts\RandomizeSprite.js" />
+     <Compile Include="Assets\scripts\Scoreboard.js" />
      <Compile Include="Assets\scripts\ShitLaunch.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
