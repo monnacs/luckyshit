@@ -1,0 +1,11 @@
+.DS_Store
+Temp/*
+Library/previews/*
+Library/ScriptAssemblies/*
+Library/cache/*
+Library/metadata/*
+Library/*
+!Library/*.asset
+ 
+*.userprefs
+*.sln
