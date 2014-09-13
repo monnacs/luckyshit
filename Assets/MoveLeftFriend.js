@@ -1,8 +1,8 @@
 #pragma strict
 #pragma downcast
 
-var moveHowMuch = 0.5;
-var repeatAfter = 34;
+var moveHowMuch = 0.1;
+var repeatAfter = 15.0;
 private var initialRepeatAfter;
 private var initialPosition;
 
