@@ -13,8 +13,8 @@ function Update () {
 }
 
 function OnCollisionEnter2D (col:Collision2D) {
-	if (col.gameObject.tag == "floor") { // missed
-		Debug.Log("missed");
+	if (col.gameObject.tag != "floor") {
+		Debug.Log("hit!");
 	}
 	Destroy(gameObject);
 }
