@@ -1,8 +1,8 @@
 fileFormatVersion: 2
-guid: d2fa422fa07461d4ba630d93fb916717
+guid: ed83c57d46e544779a39f19d612000d6
 TextureImporter:
   fileIDToRecycleName:
-    21300000: pessoa3
+    21300000: pessoa5
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -26,9 +26,9 @@ TextureImporter:
   maxTextureSize: 1024
   textureSettings:
     filterMode: -1
-    aniso: 1
+    aniso: -1
     mipBias: -1
-    wrapMode: 1
+    wrapMode: -1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
