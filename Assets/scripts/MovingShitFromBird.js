@@ -14,7 +14,7 @@ function Update () {
 
 function OnCollisionEnter2D (col:Collision2D) {
 	if (col.gameObject.tag != "floor") {
-		Debug.Log("hit!");
+		Scoreboard.playerScore++;
 	}
 	Destroy(gameObject);
 }

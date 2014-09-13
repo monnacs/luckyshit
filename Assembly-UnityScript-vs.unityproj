@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\SpawnPerson.js" />
      <Compile Include="Assets\scripts\DestroyThis.js" />
      <Compile Include="Assets\scripts\MoveChar.js" />
      <Compile Include="Assets\scripts\MoveLeft.js" />

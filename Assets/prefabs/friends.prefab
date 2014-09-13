@@ -8,7 +8,8 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400000}
-  - 114: {fileID: 11400000}
+  - 114: {fileID: 11400002}
+  - 114: {fileID: 11400004}
   m_Layer: 0
   m_Name: friends
   m_TagString: Untagged
@@ -25,8 +26,10 @@ GameObject:
   m_Component:
   - 4: {fileID: 400002}
   - 212: {fileID: 21200000}
+  - 61: {fileID: 6100000}
+  - 114: {fileID: 11400000}
   m_Layer: 0
-  m_Name: pessoa
+  m_Name: (reference) pessoa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -39,7 +42,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.7305069, y: -6.5999999, z: 0}
+  m_LocalPosition: {x: 13.6756668, y: -4.58937502, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400002}
@@ -52,12 +55,34 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100002}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.12932205, y: 2.16679335, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400000}
   m_RootOrder: 0
+--- !u!61 &6100000
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: .709999979, y: 1.16999996}
+  m_Center: {x: 0, y: 0}
 --- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34fb03582f77347779050b9057cf57d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -65,11 +90,31 @@ MonoBehaviour:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 126f88e9c8490469fad134c759dcc564, type: 3}
+  m_Script: {fileID: 11500000, guid: 287ac6fa34cbb4e45b27baa3ced4994a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveHowMuch: .0500000007
-  repeatAfter: 20
+  newObjPositionX: 0
+  objects:
+  - {fileID: 100000, guid: f5b24b7161e9a4e59b3d3708bafdcad5, type: 2}
+  - {fileID: 100000, guid: bf529e5131d9a4bd8897efb84a5be930, type: 2}
+  - {fileID: 100000, guid: a92a157f78e924406b09a742acf0f9dc, type: 2}
+  - {fileID: 100000, guid: d3ec4128331884d9a97b1cc8b9de0b96, type: 2}
+  - {fileID: 100000, guid: 16929189e952f4cf4aa4892e3fa26d05, type: 2}
+  - {fileID: 100000, guid: 2914df7fcfc034f779740beed7b57cbf, type: 2}
+--- !u!114 &11400004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e6b1b749cb754cf4ada50bccb65c3df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minSpawnInterval: 1
+  maxSpawnInterval: 5
+  spawnChance: .899999976
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
