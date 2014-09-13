@@ -16,6 +16,8 @@ function Start () {
 
 function Update () {
 	transform.position.x -= moveHowMuch;
+	killAfter -= moveHowMuch;
+	if (killAfter < 0) Destroy(gameObject);
 	if (initialRepeatAfter > 0) {
 		repeatAfter -= moveHowMuch;
 		if ((repeatAfter < initialRepeatAfter / 2) && notCreatedYet) {

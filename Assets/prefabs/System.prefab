@@ -25,8 +25,9 @@ GameObject:
   - 4: {fileID: 400002}
   - 23: {fileID: 2300000}
   - 102: {fileID: 10200000}
+  - 114: {fileID: 11400000}
   m_Layer: 5
-  m_Name: New Text
+  m_Name: Score
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -349,6 +350,18 @@ Light:
   m_ShadowAngle: 0
   m_IndirectIntensity: 1
   m_AreaSize: {x: 1, y: 1}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f74cdeeacbcf3814eb2c3040987089e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerLives: 0
 --- !u!124 &12400002
 Behaviour:
   m_ObjectHideFlags: 1
