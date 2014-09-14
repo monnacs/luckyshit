@@ -46,16 +46,16 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\CanDie.js" />
-     <Compile Include="Assets\Scoretime.js" />
-     <Compile Include="Assets\SpawnPerson.js" />
+     <Compile Include="Assets\scripts\CanDie.js" />
      <Compile Include="Assets\scripts\DestroyThis.js" />
      <Compile Include="Assets\scripts\MoveChar.js" />
      <Compile Include="Assets\scripts\MoveLeft.js" />
      <Compile Include="Assets\scripts\MovingShitFromBird.js" />
      <Compile Include="Assets\scripts\RandomizeSprite.js" />
      <Compile Include="Assets\scripts\Scoreboard.js" />
+     <Compile Include="Assets\scripts\Scoretime.js" />
      <Compile Include="Assets\scripts\ShitLaunch.js" />
+     <Compile Include="Assets\scripts\SpawnPerson.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
